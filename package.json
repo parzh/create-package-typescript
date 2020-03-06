@@ -1,0 +1,17 @@
+{
+  "name": "create-package-typescript",
+  "version": "0.0.1",
+  "description": "Utility to create npm packages written in TypeScript",
+  "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
+  "license": "MIT",
+  "keywords": [],
+  "repository": "github:parzh/create-package-typescript",
+  "bugs": {
+    "url": "https://github.com/parzh/create-package-typescript/issues"
+  },
+  "homepage": "https://github.com/parzh/create-package-typescript#readme",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
