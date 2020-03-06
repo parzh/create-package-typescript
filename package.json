@@ -1,7 +1,7 @@
 {
   "name": "create-package-typescript",
   "version": "0.0.1",
-  "description": "Utility to create npm packages written in TypeScript",
+  "description": "Recklessly create TypeScript npm packages left and right with this single command",
   "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
   "license": "MIT",
   "keywords": [],
@@ -11,8 +11,26 @@
     "url": "https://github.com/parzh/create-package-typescript/issues",
     "email": "parzhitsky@gmail.com"
   },
-  "main": "src/index.js",
+  "bin": "./cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "npm run build -- --watch --noEmit",
+    "start": "node --unhandled-rejections=strict --require ts-node/register src",
+    "postinstall": "npm run build",
+    "prepublishOnly": "npm run build -- --noEmit",
+    "postpublish": "git push --follow-tags"
+  },
+  "dependencies": {
+    "@types/node": "13.9.0",
+    "@types/node-fetch": "2.5.5",
+    "@types/validate-npm-package-name": "3.0.0",
+    "@types/yauzl": "2.9.1",
+    "commander": "4.1.1",
+    "node-fetch": "2.6.0",
+    "ts-node": "8.6.2",
+    "typescript": "3.8.3",
+    "validate-npm-package-name": "3.0.0",
+    "yauzl": "2.10.0"
   }
 }
