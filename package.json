@@ -1,6 +1,6 @@
 {
   "name": "create-package-typescript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Recklessly create TypeScript npm packages left and right with this single command",
   "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
   "license": "MIT",
