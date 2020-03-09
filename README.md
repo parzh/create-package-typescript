@@ -15,6 +15,8 @@
 
 ## Usage
 
+> See https://github.com/parzh/create-package-javascript for pure-JavaScipt alternative
+
 <pre align="center">
 npm init package-typescript <<i>name</i>> [--in <<i>path</i>>]
 </pre>
