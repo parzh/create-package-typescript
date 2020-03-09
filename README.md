@@ -11,7 +11,7 @@
 </p>
 
 <h1 align="center"><pre>npm init package-typescript <<i>name</i>></pre></h1>
-<p align="center">Recklessly create npm packages left and right with this single command ☝</p>
+<p align="center">Recklessly create TypeScript npm packages left and right with this single command ☝</p>
 
 ## Usage
 
