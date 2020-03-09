@@ -5,7 +5,7 @@ import type { Entry } from "yauzl";
 import { fromBuffer } from "yauzl";
 
 export default async function createFiles(repoPath: string): Promise<void> {
-	const response = await fetch("https://github.com/parzh/package-javascript/archive/master.zip");
+	const response = await fetch("https://github.com/parzh/package-typescript/archive/master.zip");
 	const buffer = await response.buffer();
 
 	return await new Promise((resolve, reject) => {

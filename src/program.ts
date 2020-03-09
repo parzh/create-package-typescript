@@ -8,7 +8,7 @@ interface Program extends Command {
 
 /** @public */
 const program: Program = commander
-	.name("create-package-javascript")
+	.name("create-package-typescript")
 	.usage("<name> [--in <path>]")
 	.option("<name>", "valid package name\nsee https://github.com/npm/validate-npm-package-name#naming-rules")
 	.option("-p, --in <path>", "path for new package code\nrelative to process's current working directory")
@@ -16,8 +16,8 @@ const program: Program = commander
 
 /** @private */
 const examples = [
-	"npm init package-javascript my-package",
-	"npm init package-javascript my-foo-package --in my-packages/foo",
+	"npm init package-typescript my-package",
+	"npm init package-typescript my-foo-package --in my-packages/foo",
 ] as const;
 
 program.on("--help", () => {
