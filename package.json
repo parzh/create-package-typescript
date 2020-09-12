@@ -27,7 +27,7 @@
     "@types/validate-npm-package-name": "3.0.0",
     "@types/yauzl": "2.9.1",
     "commander": "4.1.1",
-    "node-fetch": "2.6.0",
+    "node-fetch": "2.6.1",
     "ts-node": "8.6.2",
     "typescript": "3.8.3",
     "validate-npm-package-name": "3.0.0",
